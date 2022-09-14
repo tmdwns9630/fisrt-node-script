@@ -1,0 +1,21 @@
+{
+  "name": "fisrt-node-script",
+  "version": "1.0.0",
+  "description": "처음 해보는 nodejs",
+  "main": "main.js",
+  `"scripts": {
+    "cowsay": "node cowsay.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lodash": "node lodash.js",
+    "dev": "nodemon --watch *.js --exec npm run cowsay"
+  },`
+  "author": "CSJ",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
